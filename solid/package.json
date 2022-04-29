@@ -1,0 +1,16 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "single-respon": "ts-node-dev ./single-responsibility-principle/app.ts"
+  },
+  "keywords": [],
+  "author": "Sami Salih İBRAHİMBAŞ",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.4"
+  }
+}
