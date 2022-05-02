@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "single-respon": "ts-node-dev ./single-responsibility-principle/app.ts"
+    "single-respon": "ts-node-dev ./single-responsibility-principle/app.ts",
+    "open-closed": "ts-node-dev ./open-closed-principle/app.ts"
   },
   "keywords": [],
   "author": "Sami Salih İBRAHİMBAŞ",
