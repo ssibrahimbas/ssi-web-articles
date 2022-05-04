@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "single-respon": "ts-node-dev ./single-responsibility-principle/app.ts",
-    "open-closed": "ts-node-dev ./open-closed-principle/app.ts"
+    "open-closed": "ts-node-dev ./open-closed-principle/app.ts",
+    "liskov-substition": "ts-node-dev ./liskov-substitution-principle/app.ts"
   },
   "keywords": [],
   "author": "Sami Salih İBRAHİMBAŞ",
@@ -13,5 +14,9 @@
   "devDependencies": {
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.31",
+    "redis": "^4.1.0"
   }
 }
