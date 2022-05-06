@@ -1,9 +1,7 @@
-import ICacheService, { ITimeoutCacheService } from "../ICacheService";
+import { ITimeoutCacheService } from "../ICacheService";
 import redis from "redis";
 
-export default class RedisCacheService
-  implements ICacheService, ITimeoutCacheService
-{
+export default class RedisCacheService implements ITimeoutCacheService {
   private redisClient: redis.RedisClientType;
 
   constructor(redisClient: redis.RedisClientType) {
